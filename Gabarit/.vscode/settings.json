@@ -1,0 +1,18 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.mouseWheelZoom": true,
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "editor.detectIndentation": false,
+    "editor.linkedEditing": true,
+    "editor.dragAndDrop": false,
+    "editor.rulers": [120],
+    "explorer.compactFolders": false,
+    "scm.compactFolders": false,
+    "html.format.enable": false,
+    "javascript.preferences.quoteStyle": "double",
+    "css.styleSheets": ["**/*.css"],
+    "cSpell.language": "en,fr"
+}

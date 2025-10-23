@@ -1,0 +1,66 @@
+{
+    "Base HTML file": {
+        "prefix": "!",
+        "scope": "html",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"${1|en,fr|}\">",
+            "    <head>",
+            "        <meta charset=\"UTF-8\" />",
+            "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+            "        <title>${2|Page title|}</title>",
+            "    </head>",
+            "    <body>",
+            "        <header></header>",
+            "",
+            "        <main></main>",
+            "",
+            "        <footer></footer>",
+            "    </body>",
+            "</html>"
+        ]
+    },
+    "Base Css file": {
+        "prefix": "!",
+        "scope": "css",
+        "body": [
+            "*, ::before, ::after {",
+            "    margin: 0;",
+            "    padding: 0;",
+            "    box-sizing: border-box;",
+            "",
+            "    color: inherit;",
+            "}",
+            "",
+            "html {",
+            "    font: 16px sans-serif;",
+            "}",
+            "",
+            "ul, ol {",
+            "    margin: 0.5rem 0.5rem 0.5rem 2.5rem;",
+            "}",
+            "",
+            "table {",
+            "    border-color: inherit;",
+            "    border-collapse: collapse;",
+            "}",
+            "",
+            "img, svg, video {",
+            "    display: block;",
+            "    max-width: 100%;",
+            "    height: auto;",
+            "}",
+            "",
+            "button, input:not([type=\"checkbox\"], [type=\"radio\"]), textarea, select {",
+            "    display: block;",
+            "    font: inherit;",
+            "    resize: vertical;",
+            "}"
+        ]
+    },
+    "JavaScript File": {
+        "prefix": "script:defer",
+        "scope": "html",
+        "body": ["<script src=\"$1\" defer></script>"]
+    }
+}

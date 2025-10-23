@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-french",
+        "techer.open-in-browser",
+        "esbenp.prettier-vscode",
+        "pkief.material-icon-theme"
+    ]
+}
